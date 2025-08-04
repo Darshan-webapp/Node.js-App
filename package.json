@@ -1,0 +1,24 @@
+{
+  "name": "node.js-app",
+  "version": "1.0.0",
+  "description": "TASK 1: Automate Code Deployment Using CI/CD Pipeline (GitHub Actions)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darshan-webapp/Node.js-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darshan-webapp/Node.js-App/issues"
+  },
+  "homepage": "https://github.com/Darshan-webapp/Node.js-App#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
