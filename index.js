@@ -3,4 +3,5 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => res.send("Hello from CI/CD Pipeline!"));
+app.get("/", (req, res) => res.send("This is a new chnage"));
 app.listen(PORT, () => console.log(`App running on port ${PORT}`));
